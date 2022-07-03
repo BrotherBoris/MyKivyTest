@@ -1,11 +1,30 @@
-BoxLayoutExample:
+GridLayouttExample:
+
+<GridLayouttExample>
+    cols: 20
+    #Button:
+    #    text: "a"
+    #Button:
+    #    text: "b"
+    #Button:
+    #    text: "c"
+    #Button:
+    #    text: "d"
+
+
 
 <BoxLayoutExample>
     orientation: "vertical"
     Button:
         text: "a"
-    Button:
-        text: "b"
+        size_hint: 1,1
+    BoxLayout:
+        Button:
+            text: "b1"
+            size_hint: 1,1
+        Button:
+            text: "b2"
+            size_hint: 1,1        
     Button:
         text: "c"
 
